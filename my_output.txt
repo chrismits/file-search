@@ -1,0 +1,5 @@
+Query? /comp/15/files/proj2tests/smallGutenberg/www.gutenberg.lib.md.us/1/0/5/6/10562/10562/10562.txt:258: nigger minstrel, Mr. Kidd had to be led outside and kept there until such
+/comp/15/files/proj2tests/smallGutenberg/www.gutenberg.lib.md.us/1/0/7/8/10781/10781/10781.txt:274: and ship as a nigger cook if 'e couldn't get the black off.
+/comp/15/files/proj2tests/smallGutenberg/www.gutenberg.lib.md.us/1/7/7/7/17773/17773.txt:224:   And dey'd show dat dey could wash de nigger white.
+Query? 
+Goodbye! Thank you and have a nice day.
