@@ -1,11 +1,10 @@
 /*
- *  COMP 15 PROJ 2 - GERP
  *  Christos-Nikolaos Mitsopoulos 
  *
  *  WordHasher.cpp
  *  This file contains the function definitions (implementation) for
  *  the WordHasher class
- *  Modified By (UTLN): cmitso01    
+ *  Modified   
  *           On       : 11/30/2017
  */
 
