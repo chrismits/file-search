@@ -1,5 +1,4 @@
 /*
- *	COMP 15 PROJ 2 - GERP
  *	Christos-Nikolaos Mitsopoulos
  *
  *	WordHasher.h
