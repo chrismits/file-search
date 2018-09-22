@@ -1,10 +1,9 @@
 /*
- *  COMP 15 PROJ 2 - GERP
  *  Christos-Nikolaos Mitsopoulos 
  *
  *  FSTreeTraversal.cpp
  *  This file contains the FSTreeTraversal algorithm
- *  Modified By (UTLN): cmitso01    
+ *  Modified  
  *           On       : 11/16/2017
  *
  */
