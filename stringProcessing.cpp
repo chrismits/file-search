@@ -1,11 +1,10 @@
 /*
- *  COMP 15 PROJ 2 - GERP
  *  Christos-Nikolaos Mitsopoulos 
  *
  *  stringProcessing.cpp
  *  This file contains the function definitions (implementation) for
  *  the string processing algorithm
- *  Modified By (UTLN): cmitso01    
+ *  Modified    
  *           On       : 11/16/2017
  *
  */
