@@ -1,10 +1,9 @@
 /*
- *  COMP 15 PROJ 2 - GERP
  *  Christos-Nikolaos Mitsopoulos 
  *
  *  main.cpp
  *  This file contains the script for the final executable.
- *  Modified By (UTLN): cmitso01    
+ *  Modified  
  *           On       : 11/30/2017
  *
  */
