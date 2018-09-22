@@ -1,11 +1,10 @@
 /*
- *	COMP 15 PROJ 2 - GERP
  *	Christos-Nikolaos Mitsopoulos
  *
  *	stringProcessing.h
  *  This file contains the function declaration (interface) for 
  *	the string Processing function.
- *  Modified By (UTLN): cmitso01    
+ *  Modified    
  *           On       : 11/16/2017
  *
  *
