@@ -1,5 +1,4 @@
 /*
- *  COMP 15 PROJ 2 - GERP
  *  Christos-Nikolaos Mitsopoulos 
  *
  *  testHasher.cpp
@@ -9,7 +8,7 @@
  * Compares output of reference implementation with that of
  * my implementation by redirecting output to two different
  * files.
- *  Modified By (UTLN): cmitso01    
+ *  Modified    
  *           On       : 11/30/2017
  *
  */
