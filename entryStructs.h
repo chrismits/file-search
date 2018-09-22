@@ -1,5 +1,4 @@
 /*
- *  COMP 15 PROJ 2 - GERP
  *  Christos-Nikolaos Mitsopoulos 
  *
  *  entryStructs.h
@@ -16,7 +15,7 @@
  *                   which the word can be found as well as an integer that 
  *                   represents the line in which the word is found.
  *
- *  Modified By (UTLN): cmitso01    
+ *  Modified    
  *           On       : 11/30/2017
  *
 */
