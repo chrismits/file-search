@@ -29,10 +29,9 @@ To run the program, type the following in the command line:
 where DirectoryToIndex determines the path of the directory which will be traversedand indexed.
 
 After indexing the directory, the program will prompt you for a query where you can enter any of the following:
-	-> A string
-	-> @i and a string (or @insensitive) will do a case insensitive
-		search.
-	-> @q or @quit will quit the program.
+	- A string
+	- @i and a string (or @insensitive) will do a case insensitive search.
+	- @q or @quit will quit the program.
 
 
 ## Architectural Overview
@@ -103,8 +102,7 @@ vector and seeing if the same location is already added because looping through 
 ### Memory vs time trade-off
 
 For my algorithm, I chose faster runtime instead of low memory usage. I think this was an appropriate choice regarding the deliverables of 
-this project, as I was below the maximum RAM usage and my indexing was really fast. For comparison, here are my results for the largeGutenberg
-directory:
+this project, as I was below the maximum RAM usage and my indexing was really fast. For comparison, here are my results for the largeGutenberg directory:
 	- User time (seconds): 46.39
 	- Maximum resident set size (kbytes): 7953164 -> 8gb
 
