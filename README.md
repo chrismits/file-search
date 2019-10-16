@@ -29,6 +29,7 @@ To run the program, type the following in the command line:
 where DirectoryToIndex determines the path of the directory which will be traversedand indexed.
 
 After indexing the directory, the program will prompt you for a query where you can enter any of the following:
+
 	- A string
 	- @i and a string (or @insensitive) will do a case insensitive search.
 	- @q or @quit will quit the program.
@@ -36,10 +37,7 @@ After indexing the directory, the program will prompt you for a query where you 
 
 ## Architectural Overview
 
-The WordHasher class utilizes the FSTree implementation and represents the input directory as a tree with a pointer to its DirNode root. The
-tree is then traversed using a pointer to the root of the subtree each time. The hashtable implemented using the WordHasher class is based
-on the structs found in entryStructs.h, as the sequence that represents the hashtable consists of Entry node pointers. Pointers were chosen
-so that when an index is empty, the node in that index points to null.
+The WordHasher class utilizes the FSTree implementation and represents the input directory as a tree with a pointer to its DirNode root. The tree is then traversed using a pointer to the root of the subtree each time. The hashtable implemented using the WordHasher class is based on the structs found in entryStructs.h, as the sequence that represents the hashtable consists of Entry node pointers. Pointers were chosen so that when an index is empty, the node in that index points to null.
 
 ### Outline of Data Structures
 
@@ -103,6 +101,7 @@ vector and seeing if the same location is already added because looping through 
 
 For my algorithm, I chose faster runtime instead of low memory usage. I think this was an appropriate choice regarding the deliverables of 
 this project, as I was below the maximum RAM usage and my indexing was really fast. For comparison, here are my results for the largeGutenberg directory:
+
 	- User time (seconds): 46.39
 	- Maximum resident set size (kbytes): 7953164 -> 8gb
 
@@ -111,6 +110,7 @@ this project, as I was below the maximum RAM usage and my indexing was really fa
 The testing for this project is mostly based on trial and error. Here are some of the testing methods I used:
 
 For file traversal:
+
 	- Create many directories with subdirectories inside them and empty files.
 	- Print and open all filenames and check results against expected ls command.
 
