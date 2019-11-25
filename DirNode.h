@@ -12,21 +12,13 @@
 class DirNode {
 
 public:
-    ////////////////////
-    // Public Methods //
-    ////////////////////
-    /*
-     * default constructor creates empty dirNode;
-     */
     DirNode();
-    /*
-     * Constructor that sets the name of the node.
-     */
+    
+    //Constructor that sets the name of the node.
     DirNode(std::string newName);
 
-    /*
-     * Copy Constructor
-     */
+
+     //Copy Constructor
     DirNode(const DirNode &other);
 
     /*
@@ -103,28 +95,9 @@ public:
     void setParent(DirNode *newParent);
 
 private:
-    ////////////////////////////////
-    // private instance variables //
-    ////////////////////////////////
-    /*
-     * list of all of the sub directories in the
-     * current directories
-     */
     std::vector<DirNode *> directories;
-
-    /*
-     * list of all the fileNames in the current directory
-     */
     std::vector<std::string> fileNames;
-
-    /*
-     * current directory name
-     */
     std::string name;
-
-    /*
-     * pointer to parent directory
-     */
     DirNode *parent;
 };
 
